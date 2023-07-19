@@ -1,0 +1,66 @@
+.count-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.count-in {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.count-num {
+  font-size: 120px;
+  font-weight: 900;
+  color: #03038c;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-box button {
+  font-size: 20px;
+  padding: 10px 49px;
+  background: #03038c;
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+
+
+
+/* cred */
+.header{
+  background-color: #03038c;
+  padding:20px 0;
+}
+.header h2{ text-align: center; color: #fff;}
+.form-box,.data-box {
+  display: flex;
+  justify-content: center;
+}
+
+.data-box {
+  margin-top: 30px;
+}
+.form-box {
+  margin-top: 35px;
+}
+.data-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  background: #fff;
+  box-shadow: 2px 5px 7px #2f2f2f2f;
+  padding: 30px;
+}
+.data{display:flex; justify-content: space-between; width: 90%; margin: auto;}
